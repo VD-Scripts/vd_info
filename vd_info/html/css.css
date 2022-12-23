@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fugaz One', cursive;
+}
+
+.container{
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    width: 50px;
+    height: 50px;
+    background-color: #ff000063;
+    border: 3px solid transparent;
+    border-image: linear-gradient(145deg,  rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.815));
+    border-image-slice: 1;
+}
+
+.litera{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text{
+    display: none;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 0.75rem;
+    text-align: center;
+    opacity: 85%;
+}
+
+.blur{
+    display: none;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100px;
+    background: #8F00FF;
+    filter: blur(80px);
+}
+
+  
