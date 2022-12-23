@@ -1,4 +1,4 @@
-# vd_info
+# vd_info v1
 Server-ul nostru de discord: https://discord.gg/AfqUAJAawC
 # Cum se foloseste?
 Show:<br />
